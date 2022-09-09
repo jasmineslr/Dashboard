@@ -1,0 +1,55 @@
+.row-header{
+    background-color: rgb(14, 14, 14);
+    color:rgb(182, 182, 182) ;
+    height: 50px;
+}
+.main-row{
+    height: 1000px;
+}
+.navbar-txt{
+    color: #ddd !important;
+    margin-right: 0 !important;
+}
+.search-box{
+    width: 977px !important;
+    border: none !important;
+    background-color: rgb(49, 49, 49) !important;
+    border-radius: 0 !important;
+    height: 56px !important;
+}
+.navbar{
+    padding: 0 !important;
+}
+.btn-outline-success{
+    color: #ddd !important;
+    border: none !important;
+}
+.col-menu{
+    height: 1000px;
+}
+.col-2{
+    background-color: bisque;
+}
+.col-10{
+    box-sizing: border-box !important;
+}
+.dashboard{
+    padding: 0 !important;
+    font-size: 30px;
+    font-weight: bold;
+    width: 20% !important;
+}
+hr{
+    margin: 0 !important;
+}
+.btn-group{
+    width: 70% !important;
+    height: 38px !important;
+}
+.dashboard-row{
+    padding: 10px 0 !important;
+    margin: 0 10px !important;
+}
+.dropdown{
+    width: 10% !important;
+}
