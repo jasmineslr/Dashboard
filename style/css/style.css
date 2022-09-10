@@ -1,3 +1,4 @@
+
 .row-header{
     background-color: rgb(14, 14, 14);
     color:rgb(182, 182, 182) ;
@@ -39,7 +40,7 @@
     height: 1000px;
 }
 .col-2{
-    background-color: bisque;
+    padding: 0 !important;
 }
 .col-10{
     box-sizing: border-box !important;
@@ -75,4 +76,40 @@ hr{
 }
 img{
     max-width: 100% !important;
+}
+.item1::before{
+    content: '\f015';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.item2::before{
+    content: '\f15b';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.item3::before{
+    content: '\f291';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.item4::before{
+    content: '\f500';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.item5::before{
+    content: '\f012';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.item6::before{
+    content: '\f0c5';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
 }
