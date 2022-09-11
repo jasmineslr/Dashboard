@@ -28,6 +28,14 @@
         margin: 0 !important;
 }
 }
+.list-group-item{
+    font-size: 12px !important;
+}
+@media all and (min-width:576px){
+    .list-group-item{
+        font-size: 15px !important;
+    }
+}
 .navbar{
     padding: 0 !important;
 }
@@ -39,7 +47,8 @@
 .col-menu{
     height: 1000px;
 }
-.col-2{
+.dashboard-col{
+    background-color: blueviolet;
     padding: 0 !important;
 }
 .col-10{
@@ -49,17 +58,9 @@
     padding: 0 !important;
     font-size: 30px;
     font-weight: bold;
-    width: 200px !important;
 }
 hr{
     margin: 0 !important;
-}
-.btn-group{
-    margin-left: 580px;
-    padding: 0 !important;
-    width: 50px !important;
-    height: 38px !important;
-    overflow: hidden;
 }
 .dashboard-row{
     padding: 10px 0 !important;
@@ -72,7 +73,6 @@ hr{
     padding: 0 !important;
     margin-left: 100px;
     float: right;
-    overflow: hidden;
 }
 img{
     max-width: 100% !important;
