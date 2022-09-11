@@ -34,6 +34,12 @@
     .list-group-item{
         font-size: 16px !important;
     }
+    .so-font{
+        font-size: 16px !important;
+    }
+    .db-font{
+        font-size: 32px !important;
+    }
 }
 .navbar{
     padding: 0 !important;
@@ -41,16 +47,21 @@
 .btn-outline-success{
     color: #ddd !important;
     border: none !important;
-
+}
+.btn-check{
+    font-size: 8px !important;
 }
 .col-menu{
     height: 1000px;
 }
-.dashboard-col{
-    background-color: blueviolet;
+.dashboard-col4{
     padding: 0 !important;
+    font-size: 8px !important;
 }
-.col-10{
+.dropdown-toggle{
+    font-size: 14px !important;
+}
+.col-9{
     box-sizing: border-box !important;
 }
 .dashboard{
@@ -66,12 +77,6 @@ hr{
     margin: 0 10px !important;
     width: 100%;
     
-}
-.dropdown{
-    width: 10% !important;
-    padding: 0 !important;
-    margin-left: 100px;
-    float: right;
 }
 img{
     max-width: 100% !important;
@@ -114,4 +119,14 @@ img{
 }
 .item1 , .item2, .item3, .item4, .item5, .item6{
     padding: 8px 12px 8px 5px !important;
+}
+.btn-check , .btn-outline-primary{
+    font-size: 14px !important;
+    height: 35px !important;
+}
+.so-font{
+    font-size: 9px;
+}
+.db-font{
+    font-size: 18px;
 }
