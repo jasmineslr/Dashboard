@@ -679,7 +679,6 @@ progress {
   width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
 
@@ -3770,7 +3769,6 @@ textarea.form-control-lg {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   display: flex;
-  flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
 }
@@ -7688,7 +7686,7 @@ textarea.form-control-lg {
 }
 
 .me-2 {
-  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
 }
 
 .me-3 {

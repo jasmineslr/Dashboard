@@ -15,7 +15,6 @@
     border: none !important;
     background-color: rgb(49, 49, 49) !important;
     border-radius: 0 !important;
-    height: 56px !important;
     margin: 0 !important;
 }
 @media all and (min-width:1248px){
@@ -29,11 +28,11 @@
 }
 }
 .list-group-item{
-    font-size: 12px !important;
+    font-size: 8px !important;
 }
 @media all and (min-width:576px){
     .list-group-item{
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
 }
 .navbar{
@@ -112,4 +111,7 @@ img{
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     margin-right: 5px;
+}
+.item1 , .item2, .item3, .item4, .item5, .item6{
+    padding: 8px 12px 8px 5px !important;
 }
