@@ -130,3 +130,17 @@ img{
 .db-font{
     font-size: 18px;
 }
+@media all and (max-width:654px){
+.radio1{
+    padding: 3px 0 !important;
+    font-size: 7px !important;
+    width: 35px;
+    height: 20px !important;
+}
+.drop1{
+    padding: 0 !important;
+    font-size: 7px !important;
+    width: 45px;
+    height: 20px !important;
+}
+}
