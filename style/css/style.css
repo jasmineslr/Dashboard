@@ -1,11 +1,11 @@
 
 .row-header{
     background-color: rgb(14, 14, 14);
-    color:rgb(182, 182, 182) ;
+    color:rgb(235, 235, 235) ;
     height: 50px;
 }
 .main-row{
-    height: 1000px;
+    height: 100%;
 }
 .navbar-txt{
     color: #ddd !important;
@@ -52,6 +52,7 @@
     font-size: 8px !important;
 }
 .col-menu{
+    background-color: rgb(251 251 251);
     height: 1000px;
 }
 .dashboard-col4{
@@ -63,6 +64,9 @@
 }
 .col-9{
     box-sizing: border-box !important;
+}
+.col-10{
+    border-left: 1px solid #000;
 }
 .dashboard{
     padding: 0 !important;
@@ -143,4 +147,14 @@ img{
     width: 45px;
     height: 20px !important;
 }
+}
+.item7::before{
+    content: '\f1ea';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    margin-right: 5px;
+}
+h2{
+    display: flex;
+    margin-left: 20px;
 }
