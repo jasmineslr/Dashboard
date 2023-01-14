@@ -20,6 +20,7 @@
     <link href="style/fa/css/all.css" rel="stylesheet" type="text/css">
     <script src="style/js/bootstrap.bundle.js" type="text/javascript"></script>
     <script src="style/js/jquery-3.6.1.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Table</title>
 </head>
 <body>
@@ -84,7 +85,7 @@
                 </div>
                 <hr>
                 <div class="row dashboard-row">
-                    <img src="img/nemodar.png">
+                    <canvas id="myChart">
                 </div>
                 <div class="row section-title">
                     <h2>Section title</h1>
@@ -105,7 +106,7 @@
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td
+                      <td>
                           <a href="www.instagram.com"> Mark </a>
                        </td>
                       <td>Otto</td>
@@ -264,5 +265,6 @@
             </div>
         </div>
     </div>
+        <script src="script/script.js"></script>
 </body>
 </html>
